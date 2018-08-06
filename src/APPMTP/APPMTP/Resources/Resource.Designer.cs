@@ -2873,9 +2873,6 @@ namespace APPMTP
 			// aapt resource value: 0x7f08009e
 			public const int textView = 2131230878;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int textView1 = 2131230899;
-			
 			// aapt resource value: 0x7f0800b4
 			public const int textView2 = 2131230900;
 			
@@ -2887,6 +2884,9 @@ namespace APPMTP
 			
 			// aapt resource value: 0x7f0800ba
 			public const int textView5 = 2131230906;
+			
+			// aapt resource value: 0x7f0800b3
+			public const int textView6 = 2131230899;
 			
 			// aapt resource value: 0x7f08009c
 			public const int text_input_password_toggle = 2131230876;
