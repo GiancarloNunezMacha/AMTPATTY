@@ -54,7 +54,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView11"
         android:textColor="#ffdd2c00"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:hapticFeedbackEnabled="false"
+        android:textAlignment="center" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -101,7 +103,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/editText6" />
     <Button
-        android:text="ACEPTAR"
+        android:text="ENVIAR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1" />
