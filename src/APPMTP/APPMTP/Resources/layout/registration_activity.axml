@@ -11,19 +11,22 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/linearLayout1">
+        android:id="@+id/linearLayout1"
+        android:background="#ffb15cc9">
         <TextView
             android:text="Registrate"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView1"
-            android:textAlignment="center"
-            android:textColor="#ffec407a" />
+            android:id="@+id/textView6"
+            android:textColor="#ffffffff"
+            android:textAlignment="center" />
         <TextView
             android:text="E-mail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2" />
+            android:id="@+id/textView2"
+            android:textColor="#ffffffff" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,7 +35,8 @@
             android:text="Nickname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView3" />
+            android:id="@+id/textView3"
+            android:textColor="#ffffffff" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,7 +45,8 @@
             android:text="Password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView4" />
+            android:id="@+id/textView4"
+            android:textColor="#ffffffff" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -50,7 +55,8 @@
             android:text="Repetir Password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView5" />
+            android:id="@+id/textView5"
+            android:textColor="#ffffffff" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -59,6 +65,7 @@
             android:text="Registrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button1" />
+            android:id="@+id/button1"
+            android:textColor="#ffffffff" />
     </LinearLayout>
 </LinearLayout>
