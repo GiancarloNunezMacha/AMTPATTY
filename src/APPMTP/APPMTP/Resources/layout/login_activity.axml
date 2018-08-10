@@ -11,7 +11,17 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/linearLayout1">
+        android:id="@+id/linearLayout1"
+        android:background="#ffb334d3"
+        android:foregroundTint="#ffffffff">
+        <TextView
+            android:text="LOGIN Y REGISTRO"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textColor="#ffffffff"
+            android:textAlignment="center" />
         <TextView
             android:text="Usuario:"
             android:layout_width="match_parent"
@@ -25,7 +35,8 @@
             android:text="Contraseña:"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2" />
+            android:id="@+id/textView2"
+            android:textColor="#fff6f6f6" />
         <EditText
             android:inputType="textPassword"
             android:layout_width="match_parent"
@@ -42,7 +53,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/editText3" />
         <Button
-            android:text="Registrar"
+            android:text="¿Aun no tienes cuenta?"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/button1" />
