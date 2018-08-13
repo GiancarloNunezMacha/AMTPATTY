@@ -2,8 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#ffc44ae2">
+    android:layout_height="match_parent">
     <TextView
         android:text="ACERCA DE NOSOTROS"
         android:layout_width="match_parent"
@@ -11,7 +10,7 @@
         android:id="@+id/textView1"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:textColor="#ffdd2c00" />
+        android:textColor="#ffffffff" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -51,5 +50,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1"
-        android:textColor="#ffff0000" />
+        style="@style/Mine.GeneralButton" />
 </LinearLayout>

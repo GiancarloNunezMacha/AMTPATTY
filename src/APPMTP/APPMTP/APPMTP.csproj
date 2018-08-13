@@ -143,7 +143,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\mine_rounded_button.xml" />
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\fragment_aboutus.axml">
       <SubType>Designer</SubType>
