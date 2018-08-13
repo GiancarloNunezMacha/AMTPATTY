@@ -2,6 +2,54 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:background="#ffc44ae2">
+    <TextView
+        android:text="ACERCA DE NOSOTROS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#ffdd2c00" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1" />
+    <TextView
+        android:text="Somos un grupo de emprendedores que han visto en Peru la oportunidad para que sus amigos conozcan un nuevo concepto de entretención."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1" />
+    <TextView
+        android:text="Mision: Nuestra empresa esta dedicada a la confección y comercialización de peluches y articulos personalizados, integrada por personas con espíritu emprendedor, comprometidos en fijar nuevos estándares de calidad en la satisfacción de cada uno de los clientes."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2" />
+    <TextView
+        android:text="Vision: Ser una empresa con un producto y servicio de alto valor agregado, que se compromete con sus clientes, satisfaciendo sus necesidades y expectativas."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2" />
+    <Button
+        android:text="ESCRIBENOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:textColor="#ffff0000" />
 </LinearLayout>

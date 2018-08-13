@@ -24,8 +24,7 @@
             android:text="Email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2"
-            style="@style/AppTheme.GeneralLabel" />
+            android:id="@+id/textView2" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,19 +34,16 @@
             android:paddingTop="20px"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView3"
-            style="@style/AppTheme.GeneralLabel" />
+            android:id="@+id/textView3" />
         <EditText
             android:paddingBottom="20px"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText2"
-            style="@style/AppTheme.GeneralInput" />
+            android:id="@+id/editText2" />
         <Button
             android:text="Ingresa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button1"
-            style="@style/AppTheme.GeneralButton" />
+            android:id="@+id/button1" />
     </LinearLayout>
 </LinearLayout>

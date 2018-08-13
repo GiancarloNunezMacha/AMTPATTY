@@ -61,6 +61,8 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\LoginActivity.cs" />
+    <Compile Include="Activities\RegisterActivity.cs" />
     <Compile Include="Fragments\FragmentAboutUs.cs" />
     <Compile Include="Fragments\FragmentProducts.cs" />
     <Compile Include="MainActivity.cs" />
@@ -131,9 +133,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\login.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\contact_us.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -143,7 +142,6 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <AndroidResource Include="Resources\layout\fragment_aboutus.axml">
       <SubType>Designer</SubType>

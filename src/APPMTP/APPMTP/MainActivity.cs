@@ -7,6 +7,7 @@ using Android.Support.V4.View;
 using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Views;
+using Android.Widget;
 using APPMTP.Fragments;
 
 namespace APPMTP
@@ -31,6 +32,7 @@ namespace APPMTP
 
             NavigationView navigationView = FindViewById<NavigationView>(Resource.Id.nav_view);
             navigationView.SetNavigationItemSelectedListener(this);
+            //
         }
 
         public override void OnBackPressed()
@@ -80,11 +82,11 @@ namespace APPMTP
             }
             else if (id == Resource.Id.nav_gallery)
             {
-
+                changeFrame("aboutus");
             }
             else if (id == Resource.Id.nav_slideshow)
             {
-            
+                changeFrame("products");
             }
             else if (id == Resource.Id.nav_manage)
             {
@@ -102,6 +104,29 @@ namespace APPMTP
             DrawerLayout drawer = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
             drawer.CloseDrawer(GravityCompat.Start);
             return true;
+        }
+        private void changeFrame(string _type)
+        {
+            FragmentTransaction ft = FragmentManager.BeginTransaction();
+
+            Fragment fragment = null;
+            if (_type.Equals("aboutus"))
+            {
+                fragment = new FragmentAboutUs();
+            } else if (_type.Equals("products"))
+            {
+                fragment = new FragmentProducts();
+            } else
+            {
+
+            }
+            if (fragment != null)
+            {
+                ft.Replace(Resource.Id.fragmentManoy, fragment);
+                //////ft.AddToBackStack(null);
+                ft.SetTransition(FragmentTransit.FragmentFade);
+                //ft.Commit();
+            }
         }
     }
 }

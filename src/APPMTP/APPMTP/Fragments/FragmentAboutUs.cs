@@ -24,10 +24,9 @@ namespace APPMTP.Fragments
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            // Use this to return your custom view for this Fragment
-            // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
-
-            return base.OnCreateView(inflater, container, savedInstanceState);
+            View v = inflater.Inflate(Resource.Layout.fragment_aboutus, container, false);
+            return v;
+         //   return base.OnCreateView(inflater, container, savedInstanceState);
         }
     }
 }
