@@ -7,6 +7,7 @@ using Android.Support.V4.View;
 using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Views;
+using APPMTP.Fragments;
 
 namespace APPMTP
 {
@@ -83,7 +84,7 @@ namespace APPMTP
             }
             else if (id == Resource.Id.nav_slideshow)
             {
-
+            
             }
             else if (id == Resource.Id.nav_manage)
             {

@@ -11,56 +11,43 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/linearLayout1"
-        android:background="#ffb334d3"
-        android:foregroundTint="#ffffffff">
-        <TextView
-            android:text="LOGIN Y REGISTRO"
-            android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingRight="50px"
+        android:paddingLeft="50px"
+        android:id="@+id/linearLayout1">
+        <ImageView
+            android:src="@mipmap/ic_launcher"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView6"
-            android:textColor="#ffffffff"
-            android:textAlignment="center" />
+            android:id="@+id/imageView1" />
         <TextView
-            android:text="Usuario:"
+            android:paddingTop="50px"
+            android:text="Email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView1" />
+            android:id="@+id/textView2"
+            style="@style/AppTheme.GeneralLabel" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/editText1" />
         <TextView
-            android:text="Contraseña:"
+            android:text="Contraseña"
+            android:paddingTop="20px"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2"
-            android:textColor="#fff6f6f6" />
+            android:id="@+id/textView3"
+            style="@style/AppTheme.GeneralLabel" />
         <EditText
-            android:inputType="textPassword"
+            android:paddingBottom="20px"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText2" />
-        <TextView
-            android:text="Repita Contraseña:"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView3" />
-        <EditText
-            android:inputType="textPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/editText3" />
+            android:id="@+id/editText2"
+            style="@style/AppTheme.GeneralInput" />
         <Button
-            android:text="¿Aun no tienes cuenta?"
+            android:text="Ingresa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button1" />
-        <Button
-            android:text="Ingresar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/button2" />
+            android:id="@+id/button1"
+            style="@style/AppTheme.GeneralButton" />
     </LinearLayout>
 </LinearLayout>
