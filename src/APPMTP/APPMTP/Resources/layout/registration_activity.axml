@@ -11,8 +11,7 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/linearLayout1"
-        android:background="#ffb15cc9">
+        android:id="@+id/linearLayout1">
         <TextView
             android:text="Registrate"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -21,6 +20,11 @@
             android:id="@+id/textView6"
             android:textColor="#ffffffff"
             android:textAlignment="center" />
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1" />
         <TextView
             android:text="E-mail"
             android:layout_width="match_parent"
@@ -40,7 +44,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText2" />
+            android:id="@+id/editText2"
+            style="@style/Mine.GeneralInput" />
         <TextView
             android:text="Password"
             android:layout_width="match_parent"
@@ -66,6 +71,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/button1"
-            android:textColor="#ffffffff" />
+            style="@style/Mine.GeneralButton" />
     </LinearLayout>
 </LinearLayout>

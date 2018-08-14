@@ -122,10 +122,10 @@ namespace APPMTP
             }
             if (fragment != null)
             {
-                ft.Replace(Resource.Id.fragmentManoy, fragment);
+                ft.Replace(Resource.Id.fragmentMany, fragment);
                 //////ft.AddToBackStack(null);
                 ft.SetTransition(FragmentTransit.FragmentFade);
-                //ft.Commit();
+                ft.Commit();
             }
         }
     }

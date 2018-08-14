@@ -2,15 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#ffc44ae2">
-    <LinearLayout
-        android:orientation="vertical"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout1" />
+    android:layout_height="match_parent">
     <TextView
         android:text="CONTACTENOS"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -53,10 +45,5 @@
         android:layout_height="wrap_content"
         android:id="@+id/button1"
         android:autoLink="none|web|email|map|phone|all"
-        android:textColor="#ffff0505" />
-    <ProgressBar
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/progressBar2" />
+        style="@style/Mine.GeneralButton" />
 </LinearLayout>
