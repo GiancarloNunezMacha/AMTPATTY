@@ -64,6 +64,7 @@
     <Compile Include="Activities\LoginActivity.cs" />
     <Compile Include="Activities\RegisterActivity.cs" />
     <Compile Include="Fragments\FragmentAboutUs.cs" />
+    <Compile Include="Fragments\FragmentDetailProducts.cs" />
     <Compile Include="Fragments\FragmentProducts.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -142,7 +143,6 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
-
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\mine_rounded_button.xml" />
   </ItemGroup>
@@ -155,6 +155,9 @@
     <AndroidResource Include="Resources\layout\fragment_products.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\adapter_product_item.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
