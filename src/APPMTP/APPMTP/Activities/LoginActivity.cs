@@ -12,13 +12,16 @@ using Android.Widget;
 
 namespace APPMTP.Activities
 {
-    [Activity(Label = "LoginActivity")]
+    [Activity(Label = "LoginActivity",Theme = "@style/AppTheme.GeneralForm", MainLauncher = true)]
     public class LoginActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.login_activity);
+            
 
+        
             // Create your application here
         }
     }

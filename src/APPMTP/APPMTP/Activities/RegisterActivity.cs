@@ -12,13 +12,13 @@ using Android.Widget;
 
 namespace APPMTP.Activities
 {
-    [Activity(Label = "RegisterActivity")]
+    [Activity(Label = "RegisterActivity",Theme ="@style/AppTheme.GeneralForm")]
     public class RegisterActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
+            SetContentView(Resource.Layout.registration_activity);
             // Create your application here
         }
     }

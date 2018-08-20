@@ -63,7 +63,7 @@
   <ItemGroup>
     <Compile Include="Activities\LoginActivity.cs" />
     <Compile Include="Activities\RegisterActivity.cs" />
-    <Compile Include="Adapters\ProductAdapter.cs.cs" />
+    <Compile Include="Adapters\ProductAdapter.cs" />
     <Compile Include="Fragments\FragmentAboutUs.cs" />
     <Compile Include="Fragments\FragmentDetailProducts.cs" />
     <Compile Include="Fragments\FragmentProducts.cs" />
