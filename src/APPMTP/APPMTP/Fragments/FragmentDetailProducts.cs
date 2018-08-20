@@ -10,6 +10,8 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
+using APPMTP.Models;
+using APPMTP.Adapters;
 
 namespace APPMTP.Fragments
 {
@@ -26,8 +28,9 @@ namespace APPMTP.Fragments
         {
             // Use this to return your custom view for this Fragment
             // return inflater.Inflate(Resource.Layout.YourFragment, container, false);
-
-            return base.OnCreateView(inflater, container, savedInstanceState);
+            View v = inflater.Inflate(Resource.Layout.fragment_detail_products, container, false);
+            return v;
+            //return base.OnCreateView(inflater, container, savedInstanceState);
         }
     }
 }
