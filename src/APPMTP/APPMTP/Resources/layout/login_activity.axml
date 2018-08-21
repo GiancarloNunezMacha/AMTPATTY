@@ -47,5 +47,12 @@
             android:id="@+id/button1"
             style="@style/Mine.GeneralButton"
             android:textStyle="normal" />
+        <Button
+            android:text="Registrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            style="@style/Mine.GeneralButton"
+            android:textStyle="normal" />
     </LinearLayout>
 </LinearLayout>
